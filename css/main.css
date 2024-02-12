@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-style: italic;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(287deg, #FFB800 0%, #FFDB5A 100%);
+    width: 1920px;
+    height: 1080px;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto; /*позиционирование по центру*/
+   
+
+
+
+}
+
+
+header a {
+    color: black;
+}
+
+.menu {
+    display: flex;
+    margin-left: 140px;
+}
+
+.menu li a {
+    /* text-transform: uppercase;     */
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu li {
+    margin-right: 30px;
+    list-style-type: none; /* Убираем маркеры */
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+
+
+}
+
+.cart{
+    margin-left: auto;
+}
+
+.sum {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.triangle {
+    margin-left: 5px;
+}
+
+section {
+    height: 1080px;
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 15px 5px;
+    /* border: 1px solid black; */
+    width: 262.708px;
+    border-radius: 28.5px;
+    background: #F33E3E;
+    box-shadow: 0px 4px 25px 0px rgba(243, 62, 138, 0.81);
+    color: white;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.dog {
+    display: block;
+    margin-left: 77px;
+
+}
+
+/* .text_of_offer {
+    display: flex;
+    
+} */
+
+h1 {
+    font-size: 64px;
+    width: 734px;
+
+}
+
+p {
+    font-size: 32px;
+}
+/* 
+.text_of_offer {
+    width: 679px;
+    height: 405px;
+} */
